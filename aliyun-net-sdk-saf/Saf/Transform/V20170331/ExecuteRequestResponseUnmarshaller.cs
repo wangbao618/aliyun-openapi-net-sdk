@@ -31,7 +31,7 @@ namespace Aliyun.Acs.saf.Transform.V20170331
 
 			executeRequestResponse.HttpResponse = context.HttpResponse;
 			executeRequestResponse.Code = context.IntegerValue("ExecuteRequest.Code");
-			executeRequestResponse.Data = context.StringValue("ExecuteRequest.Data");
+			executeRequestResponse.Data = context.StringValue("ExecuteRequest.Data.score");
 			executeRequestResponse.Message = context.StringValue("ExecuteRequest.Message");
 			executeRequestResponse.RequestId = context.StringValue("ExecuteRequest.RequestId");
         
